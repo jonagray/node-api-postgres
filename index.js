@@ -1,7 +1,8 @@
 'use strict';
 
 // Index file is the entry point for the server
-
+const dotenv = require('dotenv')
+dotenv.config()
 const express = require('express') // Module
 const bodyParser = require('body-parser') // Middleware
 const app = express() // Variable
